@@ -1,0 +1,104 @@
+body {
+    background-color: pink;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This makes it center vertically */
+}
+
+.centered-form h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Adjust based on your preference */
+    text-shadow: 2px 2px 4px #000; /* Optional: Adds a shadow for better readability */
+}
+
+#entry-code, button {
+    font-size: 20px; /* Larger font size */
+    padding: 10px;
+    margin: 5px; /* Adds some space around the elements */
+}
+
+#entry-code {
+    width: 50%; /* Makes the input wider */
+    max-width: 300px; /* Ensures it's not too wide on larger screens */
+}
+
+#kawaii-character {
+    font-size: 48px;
+    animation: bounce 2s infinite;
+}
+
+#yes-btn, #no-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Add this to your existing style.css */
+#kawaii-characters {
+    font-size: 24px;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+/* Add these styles to your style.css */
+.success-page {
+    background-color: #FFC0CB; /* Light pink, adjust as desired */
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.success-page #kawaii-characters {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Existing styles, ensure these are present */
+body {
+    background-color: pink;
+    font-family: "Lemon";
+    /*'Arial', sans-serif;*/
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Update for centered-form to apply flex styling universally */
+.centered-form, #main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Ensures text within children is centered */
+}
+
+/* Styles for input and buttons to enhance appearance */
+#entry-code, #yes-btn, #no-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px; /* Adds spacing between elements */
+    cursor: pointer;
+}
+
+/* Adjust as necessary for your design */
+#kawaii-characters, #kawaii-character {
+    font-size: 2em; /* Example size, adjust as needed */
+    margin-bottom: 20px; /* Spacing below the characters */
+}

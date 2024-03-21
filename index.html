@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine's Day Surprise</title>
+<link rel="stylesheet" href="style.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+
+<div id="code-entry-page" class="centered-form">
+    <div id="kawaii-characters">
+        💖 🌸 💕 🎀 💖
+        <h1>WOW, you've been summoned to the world of love!</h1>
+        <h2>Why are you here?</h2>
+        <h2>Your purpose is your passcode!</h2>
+        <input type="text" id="entry-code" placeholder="Enter the purpose here!">
+        <button onclick="checkCode()">Enter</button>
+    </div>
+</div>
+
+<div id="main-content" style="display:none;">
+    <div id="kawaii-characters">
+        🌈 🦄 💖 🐱 🌸
+        <p>Will you be my valentine?</p>
+    </div>
+    <button id="yes-btn">YES</button>
+    <button id="no-btn" onclick="changeNoText()">NO</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
